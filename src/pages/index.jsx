@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import RecipeSection from '../components/recipeSection';
 import Carousel from '../components/carousel';
 import axios from 'axios';
+import bannerb1 from '../assets/bannerImage1.png'
+import bannerb2 from '../assets/bannerImage2.png'
+import bannerb3 from '../assets/bannerImage3.png'
 
 const Index = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -13,15 +16,15 @@ const Index = () => {
   const carouselImages = [
     // Update or fetch dynamically as needed
     {
-      image: 'https://i.ytimg.com/vi/_aIhh9nFYvY/maxresdefault.jpg',
+      url: bannerb1,
       caption: 'Discover the finest flavors from around the world!',
     },
     {
-      image: 'https://static.toiimg.com/thumb/53110049.cms?imgsize=233153&width=800&height=800',
+      url: bannerb2,
       caption: 'Vegetarian or Non-Veg, we have it all!',
     },
     {
-      image: 'https://www.licious.in/blog/wp-content/uploads/2022/07/shutterstock_1722724301.jpg',
+      url: bannerb3,
       caption: 'Easy & healthy recipes for every mood.',
     },
   ];

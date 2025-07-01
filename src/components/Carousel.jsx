@@ -13,7 +13,7 @@ const Carousel = ({ carouselImages, currentSlide, setCurrentSlide, nextSlide, pr
           }`}
         >
           <img src={slide.url} alt={slide.title} className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/60 flex items-center justify-center">
+          <div className="absolute inset-0 bg-gradient-to-r  flex items-center justify-center">
             <div className="text-center text-white max-w-4xl px-6">
               <h2 className="text-4xl lg:text-6xl font-bold mb-4">{slide.title}</h2>
               <p className="text-xl lg:text-2xl opacity-90">{slide.subtitle}</p>

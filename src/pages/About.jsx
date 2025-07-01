@@ -15,8 +15,8 @@ const About = () => {
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">👨‍🎓 Project Team & Responsibilities</h2>
         <ul className="list-disc list-inside text-gray-700 leading-loose">
           <li><strong>Anish Karlekar</strong> (230673131011) – Project Lead: Site map, backend development & routing</li>
-          <li><strong>Vinit Modi</strong> (230673131015) – Frontend development using React.js and Tailwind CSS</li>
-          <li><strong>Meet Panchal</strong> (230673131014) – Testing & validation of functionalities and user flows</li>
+          <li><strong>Vinit Modi</strong> (230673131014) – Frontend development using React.js and Tailwind CSS</li>
+          <li><strong>Meet Panchal</strong> (230673131015) – Testing & validation of functionalities and user flows</li>
           <li><strong>Vidhi Patel</strong> (230673131021) – Canvas preparation and documentation</li>
         </ul>
       </div>
